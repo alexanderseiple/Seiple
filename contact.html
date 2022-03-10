@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;651;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Seiple - Contact Us</title>
+  </head>
+
+  <body>
+    <header class="contact-one-col">
+      <h1>Contact Us</h1>
+      <h4><a href="index.html">Home</a></h4>
+    </header>
+    <div class="contact-row">
+      <div class="contact-row-item cr-item-left">
+        <div>
+          <h2>Locations</h2>
+        </div>
+        <div class="contact-row-item-info contact-location-1">
+          <h3>Pennsylvania Office</h3>
+          <p>
+            Three Westlakes<br />1055 Westlakes Drive<br />Suite 300<br />Berwyn,
+            PA<br />19312
+          </p>
+          <p class="phone-num">570-570-5700</p>
+        </div>
+        <div class="contact-row-item-info contact-location-2">
+          <h3>Colorado Office</h3>
+          <p>
+            390 Interlocken Crescent<br />Suite 350<br />Broomfield, CO<br />80021
+          </p>
+          <p class="phone-num">720-720-7200</p>
+        </div>
+      </div>
+      <div class="contact-row-item contact-form-area">
+        <div class="contact-form">
+          <form method="POST" action="contact-form-process.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="text" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="location">Property Location</label>
+              <input type="text" id="location" name="text" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <button class="form-submit" type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot-wrapper contact-foot">
+        <div class="foot-2col contact-foot-2col">
+          <p class="copy-statement">
+            &copy; Primus Commercial Real Estate LLC. All rights reserved.
+          </p>
+          <p class="service-statement">
+            Primus <span id="llc-small">CRE</span> is a registered trade name of
+            Primus Commercial Real Estate LLC.
+          </p>
+          <p class="asterisk-statement">
+            *Primus <span id="llc-small">CRE</span> does not currently offer
+            brokerage services in Pennsylvania.
+          </p>
+        </div>
+        <div class="foot-col">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">About</a></li>
+            <li><a href="contact.html">Careers</a></li>
+            <li><a href="contact.html">Locations</a></li>
+            <li><a href="#">Legal Notices</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
