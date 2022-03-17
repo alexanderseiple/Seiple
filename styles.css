@@ -379,42 +379,6 @@ textarea {
   cursor: pointer;
 }
 
-#status {
-  width: 75%;
-  max-width: 500px;
-  text-align: center;
-  padding: 0.2em;
-  margin: 0 auto;
-  border-radius: 8px;
-  color: black;
-}
-
-#status.success {
-  background: #acd1af;
-  animation: status 4s ease forwards;
-}
-
-#status.error {
-  background: #f47174;
-  color: #fff;
-  animation: status 4s ease forwards;
-}
-
-@keyframes status {
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
-  }
-}
-
 /*Media Query*/
 @media screen and (max-width: 1000px) {
   .main-head {
